@@ -1,0 +1,15 @@
+{
+	"manifest_version": 2,
+	"name": "fem",
+	"version": "1.0",
+	"description": "Gender neutral pronouns for web.",
+	"content_scripts": 
+	[
+		{
+			"matches": ["*://*/*"],
+			"js": ["content_script.js"],
+			"run_at": "document_end"
+		}
+	]
+}
+
